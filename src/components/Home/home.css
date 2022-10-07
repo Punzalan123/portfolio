@@ -1,0 +1,219 @@
+div #home {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+    position: relative;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+#home img {
+    width: 330px;
+    height: 440px;
+    transform: rotate(20deg);
+    margin-right: 0;
+}
+
+#home img:hover {
+    animation: animo 1.8s ease-in-out;
+}
+
+
+
+@keyframes animo {
+
+    30% { transform: scale(.9); }
+    40% { transform: rotate(-5deg) scale(.9); }
+    50% { transform: rotate(5deg) scale(.9); }
+    60% { transform: rotate(-5deg) scale(.9); }
+    70% { transform: rotate(0deg) scale(.9); }
+    100% { transform: rotate(20deg) scale(1); }
+
+}
+
+div .htx {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.htx h1 {
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.htx h2 {
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: bold; 
+}
+
+.per-span {
+    color: rgb(250, 88, 182);
+}
+
+.rein-span {
+    color:  rgb(122, 11, 192);
+    text-shadow: -3px -1px rgb(250, 88, 182) ;
+}
+
+.web-span {
+    background: linear-gradient(to right, #2cff87, #586eff, #a84cff, #2cff87, #586eff );
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: rgb(26, 26, 64);
+    -webkit-text-stroke: 5px transparent;
+    animation: g-text 10s linear infinite;
+}
+
+@keyframes g-text {
+    0%
+    {
+        background-position: 0% 0%;
+    }
+    50% 
+    {
+        background-position: 50% 50%;
+    }
+    100%
+    {
+        background-position: 100% 0%;
+    }
+}    
+
+@media (min-width:1400px) {
+    #home img {
+        width: 405px;
+        height: 540px;
+    }
+    .htx h1 {
+        font-size: 50px;
+        letter-spacing: 2px;
+    }
+    .htx h2 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+/* xxl devices  */
+@media (max-width:1400px) {
+    #home img {
+        width: 330px;
+        height: 440px;
+    }
+    .htx h1 {
+        font-size: 45px;
+        letter-spacing: 2px;
+    }
+    .htx h2 {
+        font-size: 27px;
+        font-weight: bold;
+    }
+}
+
+/* xl devices */
+@media (max-width:1200px) {
+    #home img {
+        width: 300px;
+        height: 400px;
+    }
+    .htx h1 {
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+    
+    .htx h2 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
+
+/* large devices */
+@media (max-width:992px ) {
+    #home img {
+        width: 270px;
+        height: 360px;
+    }
+    .htx h1 {
+        font-size: 35px;
+        letter-spacing: 1px;
+    }
+    .htx h2 {
+        font-size: 21px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width:768px ){
+    #home {
+        background-image: url('../../imagess/rvn.png');
+        background-size: 50% 70%;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+    #home img {
+        display: none;
+    }
+    .htx h1 {
+        font-size: 35px;
+        letter-spacing: 1px;
+    }
+    .htx h2 {
+        font-size: 21px;
+        font-weight: bold;
+    }
+}
+
+
+.wavy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wavy svg {
+    position: relative;
+    display: block;
+    width: calc(145% + 1.3px);
+    height: 109px;
+}
+
+.wavy .shape-fill {
+    fill: rgb(120, 11, 192);
+}
+
+.wavy2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wavy2 svg {
+    position: relative;
+    display: block;
+    width: calc(150% + 1.3px);
+    height: 120px;
+}
+
+.wavy2 .shape-fill {
+    fill: rgb(120, 11, 192);
+}

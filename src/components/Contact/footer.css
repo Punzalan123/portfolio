@@ -1,0 +1,99 @@
+#footer {
+    min-height: 30vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(122, 11, 192);
+}
+
+#footer h3 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#footer hr {
+    margin: auto;
+    color: whitesmoke;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.links {
+    margin: auto;
+    padding-top:  15px;
+    padding-bottom: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.rowlink {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rowlink a {
+    font-size: 25px;
+    display: inline-block;
+    color: whitesmoke;
+    line-height: 1;
+    padding: 10px 0;
+    background-color: transparent;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+.rowlink a:nth-child(1),.rowlink a:nth-child(2),.rowlink a:nth-child(3), .rowlink a:nth-child(4){
+    padding: 10px 0 10px 1px;
+}
+.rowlink a:nth-child(5) {
+    padding: 10px 0;
+}   
+
+.rowlink a:nth-child(1):hover {
+    background-color: #211F1F ;
+    color: #FFFFFF;
+    transition: 0.6s ease;
+}
+.rowlink a:nth-child(2):hover {
+    background-color: #0077B5;
+    color: white;
+    transition: 0.6s ease;
+}
+.rowlink a:nth-child(3):hover {
+    background-color: white ;
+    color: #4267B2;
+    transition: 0.6s ease;
+}
+.rowlink a:nth-child(4):hover {
+    background-color: white;
+    color: #BB001B;
+    transition: 0.6s ease;
+}
+.rowlink a:nth-child(5):hover {
+    background-color: #1DA1F2;
+    color: #F5F8FA;
+    transition: 0.6s ease;
+}
+
+.rowlink a:not(:hover) {
+    background-color: transparent;
+    background: transparent;
+    color: whitesmoke;
+    transition: 0.6s ease;
+    transform: translateY(0);
+}
+.rowlink a:hover {
+    transform: translateY(5px);
+    transition: 0.6s ease;
+}
+
+#footer p {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}

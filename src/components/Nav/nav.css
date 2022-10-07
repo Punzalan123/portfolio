@@ -1,0 +1,138 @@
+
+.linkNav {
+    color: whitesmoke !important;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 9px 18px;
+}
+
+.navigationlinks {
+    text-align: center;
+    padding: 3px;
+}
+
+/* for xtra small devices (goods)*/
+@media (max-width: 576px) {
+    .navigationlinks {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+        padding: 0px;
+    }
+    .linkNav {
+        padding: 10px 20px;
+    }
+    .linkNav:hover {
+        transition: 0.6s ease;
+        padding: 10px 100px;
+    }
+    .linkNav:not(:hover) {
+        transition: 0.6s ease;
+        padding: 10px 20px;
+    }
+}
+/* for small devices (goods)*/
+@media (min-width:576px){
+    .linkNav {
+        padding: 8px 16px;
+    }
+    .navigationlinks {
+        margin: 10px 0;
+        padding: 0px;
+    }
+    .linkNav:hover {
+        transition: 0.6s ease;
+        padding: 10px 100px;
+    }
+}
+
+/* for medium devices (goods) */
+@media (min-width: 768px) {
+    .linkNav {
+        padding: 9px 16px;
+        font-size: 15px;
+    }
+    .navigationlinks {
+        margin: 10px 0;
+        padding: 0px;
+    }
+    .linkNav:hover {
+        transition: 0.6s ease;
+        padding: 9px 16px;
+    }
+    .linkNav:not(:hover) {
+        transition: 0.6s ease;
+    }
+}
+
+/* for large devices and up (goods)*/
+@media (min-width: 992px) {
+    .navigationlinks {
+        padding: 2px;
+    }
+    .linkNav {
+        padding: 9px 16px;
+        font-size: 16px;
+    }
+    .linkNav:not(:hover) {
+        transition: 0.6s ease;
+    }
+    .linkNav:hover {
+        transition: 0.6s ease;
+    }
+}
+
+/* for xl devices and up (goods) */
+@media (min-width: 1200px) {
+    .navigationlinks {
+        padding: 1px;
+    }
+    .linkNav {
+        padding: 9px 16px;
+        font-size: 17px;
+    }
+    .linkNav:not(:hover) {
+        transition: 0.6s ease;
+    }
+    .linkNav:hover {
+        transition: 0.6s ease;
+    }
+}
+/* for xxl devices and up (goods)*/
+@media (min-width: 1400px) {
+    .navigationlinks {
+        padding: 1px;
+    }
+    .linkNav {
+        padding: 9px 18px;
+        font-size: 18px;
+    }
+    .linkNav:not(:hover) {
+        transition: 0.6s ease;
+        padding: 9px 18px;
+    }
+    .linkNav:hover {
+        transition: 0.6s ease;
+        padding: 9px 18px;
+    }
+}
+
+.linkNav:not(:hover) {
+    color: whitesmoke !important;
+    background-color: transparent;
+}
+
+.linkNav:hover {
+    color: rgb(39, 0, 130) !important ;
+    background-color: whitesmoke;
+    transition: 0.6s ease;
+}
+
+.navigation {
+    background: linear-gradient(90deg, rgb(39, 0, 130) 0%, rgb(122, 11, 192) 100%);
+}
+
+
