@@ -99,7 +99,7 @@
 }
 .tech-card:not(:hover) {
     transform: scale(1);
-    transition: 0.5s ease;
+    transition: 0.1s ease;
 }
 
 .curve-bot {

@@ -47,14 +47,14 @@ div #contact {
 }
 
 .submitButton:hover {
-    transition: 0.6s ease;
+    transition: 0.5s ease;
     background: whitesmoke;
     border: 1px solid transparent;
     color: black;
 }
 
 .submitButton:not(:hover) {
-    transition: 0.6s ease;
+    transition: 0.1s ease;
     box-shadow: none;
     background-color: transparent;
     border: 1px solid whitesmoke;

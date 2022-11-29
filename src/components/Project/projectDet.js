@@ -2,6 +2,10 @@ import accord from '../../imagess/accord_pic.png';
 import crypto from '../../imagess/crypto_pic.png';
 import food from '../../imagess/food_pic.png';
 import rock from '../../imagess/jrock_pic.png';
+import blog from '../../imagess/blog_pic.png';
+import converter from '../../imagess/unitCon_pic.png';
+
+
 
 const project = {
     minipro:[
@@ -31,14 +35,29 @@ const project = {
         },
         {
             key: 4,
+            name: `Personal Blog`,
+            details: "A simple blog about me",
+            image: blog,
+            code: "https://github.com/Punzalan123/blog",
+            site: "https://punzalan123.github.io/blog/",
+        },
+        {
+            key: 5,
             name: `Rock🗴Paper🗴Scissors`,
             details: "A simple JavaScript game",
             image: rock,
-            code: "https://github.com/Punzalan123/B12_Exercise9",
-            site: "https://punzalan123.github.io/B12_Exercise9/",
+            code: "https://github.com/Punzalan123/Rock",
+            site: "https://punzalan123.github.io/Rock/",
+        },
+        {
+            key: 6,
+            name: `Unit Converter`,
+            details: "A simple converter app",
+            image: converter,
+            code: "https://github.com/Punzalan123/Converter",
+            site: "https://punzalan123.github.io/Converter/",
         },
 ]}
 
-// add livelink and github code link
 
 export default project;
