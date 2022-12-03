@@ -23,7 +23,8 @@ const Footr = () => {
             </div>
 
             <p>
-                <Copy /> Copyright 2022  <br />All rights reserved.
+                Copyright <Copy /> 2022 Rein Punzalan <br/>
+                <span className="opacity-50">Last Updated December 2022</span>
             </p>
             
         </div>

@@ -103,3 +103,13 @@ p {
     font-family: 'Montserrat', sans-serif;
     color: var(--whit);
 }
+.loading{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 999999;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, var(--darC), var(--naVy));
+}
