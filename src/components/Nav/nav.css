@@ -24,20 +24,17 @@
     }
     .linkNav {
         padding: 10px 20px;
+        transition: 0.1s ease;
     }
     .linkNav:hover {
         transition: 0.5s ease;
-        padding: 10px 100px;
-    }
-    .linkNav:not(:hover) {
-        transition: 0.1s ease;
-        padding: 10px 20px;
     }
 }
 /* for small devices (goods)*/
 @media (min-width:576px){
     .linkNav {
         padding: 8px 16px;
+        transition: 0.1s ease;
     }
     .navigationlinks {
         margin: 10px 0;
@@ -45,7 +42,7 @@
     }
     .linkNav:hover {
         transition: 0.5s ease;
-        padding: 10px 100px;
+        padding: 8px 16px;
     }
 }
 
@@ -59,13 +56,6 @@
         margin: 10px 0;
         padding: 0px;
     }
-    .linkNav:hover {
-        transition: 0.5s ease;
-        padding: 9px 16px;
-    }
-    .linkNav:not(:hover) {
-        transition: 0.1s ease;
-    }
 }
 
 /* for large devices and up (goods)*/
@@ -76,12 +66,6 @@
     .linkNav {
         padding: 9px 16px;
         font-size: 16px;
-    }
-    .linkNav:not(:hover) {
-        transition: 0.1s ease;
-    }
-    .linkNav:hover {
-        transition: 0.5s ease;
     }
 }
 
@@ -94,12 +78,6 @@
         padding: 9px 16px;
         font-size: 17px;
     }
-    .linkNav:not(:hover) {
-        transition: 0.1s ease;
-    }
-    .linkNav:hover {
-        transition: 0.5s ease;
-    }
 }
 /* for xxl devices and up (goods)*/
 @media (min-width: 1400px) {
@@ -109,14 +87,6 @@
     .linkNav {
         padding: 9px 18px;
         font-size: 18px;
-    }
-    .linkNav:not(:hover) {
-        transition: 0.1s ease;
-        padding: 9px 18px;
-    }
-    .linkNav:hover {
-        transition: 0.5s ease;
-        padding: 9px 18px;
     }
 }
 
