@@ -142,12 +142,9 @@ const NaviBar = () => {
               </Offcanvas.Header>
               <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1">
-                {navlinks.map(({link, key, name }) => (
-                  <div key={key} className="navigationlinks" >
-                    {/* <Nav.Link href={`#${link}`} className="linkNav" onClick={reslink}>{name}</Nav.Link > */}
-
-                    <Link to={link} className="linkNav" onClick={reslink}>{name}</Link >
-
+                {navlinks.map((l) => (
+                  <div key={l.key} className="navigationlinks" >
+                    <Link to={l.link} className="linkNav" onClick={reslink}>{l.name}</Link >
                   </div>                
                 ))}
                 </Nav>

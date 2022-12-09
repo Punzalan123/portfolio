@@ -3,7 +3,7 @@
     color: whitesmoke !important;
     background-color: transparent;
     text-align: center;
-    border-radius: 25px;
+    border-radius: 5px;
     text-decoration: none;
     text-transform: capitalize;
     padding: 9px 18px;
@@ -39,10 +39,6 @@
     .navigationlinks {
         margin: 10px 0;
         padding: 0px;
-    }
-    .linkNav:hover {
-        transition: 0.5s ease;
-        padding: 8px 16px;
     }
 }
 
