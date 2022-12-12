@@ -1,8 +1,5 @@
 #about {
     background: linear-gradient(to bottom, rgb(120, 11, 192) 0%, rgb(39, 0, 130) 100% ) ;
-    /* background-size: 100% 120%;
-    background-position-x: center;
-    background-position-y: 5%; */
     min-height: 100vh;
     margin: 0;
     padding: 0;

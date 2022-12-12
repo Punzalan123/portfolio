@@ -5,6 +5,10 @@
     padding: 0;
     position: relative;
     padding-bottom: 79px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .curve-top {
@@ -40,10 +44,15 @@
     text-align: center;
     margin-bottom: 60px;
 }
-.skill-dsc2 {
-    text-align: center;
-    margin-bottom: 60px;
-    margin-top: 20px;
+.tech-sk{
+    padding-bottom: 60px;
+}
+
+@media (max-width: 576px){
+    .tech-card{
+        margin: 0 5px 15px;
+        padding: 10px;
+    }
 }
 
 /* xs devices */
@@ -52,8 +61,12 @@
         padding: 0 40px;
         font-size: 14px;
     }
-    .ctitle {
-        font-size: 14px;
+    .ctitle, .card-B {
+        display: none;
+    }
+    .tech-card{
+        margin: 0 15px 20px;
+        padding: 10px;
     }
 }
 /* small devices */
@@ -64,6 +77,9 @@
     }
     .ctitle {
         font-size: 15px;
+    }
+    .tech-card{
+        margin: 0 20px 40px;
     }
 }
 /* medium devices */
@@ -85,21 +101,19 @@
     .ctitle {
         font-size: 16px;
     }
+
 }
 
 .tech-card {
     box-shadow: 2px 0px 2px 2px rgb(250, 88, 182);
     border-radius: 30px;
-    margin-bottom: 40px;
+    background-color: transparent;
+    transition: 0.1s ease;
 }
 .tech-card:hover {
     transform: scale(0.95);
     transition: 0.5s ease;
     cursor: pointer;
-}
-.tech-card:not(:hover) {
-    transform: scale(1);
-    transition: 0.1s ease;
 }
 
 .curve-bot {

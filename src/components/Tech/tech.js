@@ -7,10 +7,10 @@ import techno from './techcomp';
 const Tech = () => {
     return(
         <div id="tech" name="tech" >
-            <h1 className="skill-txt">Skills</h1>
-            <p className="skill-dsc">These are the Languages, Tools and Frameworks that I can use.</p>
+            <h1 className="skill-txt">Tech Skills</h1>
+            <p className="skill-dsc">These are the Technologies that I can use and I've used before</p>
             <div className="container">
-                <div className="row justify-content-center">
+                <div className="row justify-content-center tech-sk">
                 {techno.pro.map((tech, key) => {
                         return (
                             <TechCard
@@ -20,13 +20,6 @@ const Tech = () => {
                             name={tech.name} />
                         )
                     })}
-                </div>
-            </div>            
-            
-            
-            <p className="skill-dsc2">I have basic knowledge of these technologies.</p>
-            <div className="container">
-                <div className="row justify-content-center">
                 {techno.basic.map((tech, key) => {
                         return (
                             <TechCard
@@ -35,9 +28,17 @@ const Tech = () => {
                             image={tech.image}
                             name={tech.name} />
                         )
-                    })}
+                    })}    
                 </div>
             </div>            
+            
+            
+            {/* <p className="skill-dsc2">I have basic knowledge of these technologies.</p>
+            <div className="container">
+                <div className="row justify-content-center">
+                
+                </div>
+            </div>             */}
 
             <div className="curve-top">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"><path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" className="shape-fill"></path>

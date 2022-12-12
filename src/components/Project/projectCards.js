@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button'
 
 const ProCard = (pro) => {
     return (
-        <Card className="pro-card col-10 col-md-5 col-lg-5 col-xl-5 mx-4">
+        <Card className="pro-card col-10 col-md-5 col-xxl-3 mx-4">
         <Card.Img variant="top" src={pro.image} className="pro-img img-fluid" />
         <Card.Body>
           <Card.Title className="pro-title text-center text-white">{pro.name}</Card.Title>
