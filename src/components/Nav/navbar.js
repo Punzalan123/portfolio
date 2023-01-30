@@ -7,7 +7,6 @@ import { HiX } from 'react-icons/hi';
 import { BiCodeCurly as Rock } from 'react-icons/bi';
 import './nav.css';
 import { Link } from "react-scroll";
-import { motion } from "framer-motion";
 
 
 const NaviBar = () => {
@@ -99,12 +98,7 @@ const NaviBar = () => {
 
     return(
             <Navbar fixed="top" expand='md' id="nav" className={navcol ? 'navigation' : ''}>
-            <motion.div 
-              className='container'
-              initial={{ y : -150 }}
-              animate={{ y : 0}}
-              transition={{ duration: 0.5}}
-              >
+            <div className='container' >
             <Navbar.Brand href="/" className="text-white px-2 ms-2" style={{opacity: "0.95"}} ><Rock /> Rein</Navbar.Brand>
             <Navbar.Toggle 
                 aria-controls = {`togy`} 
@@ -150,7 +144,7 @@ const NaviBar = () => {
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
-          </motion.div>
+          </div>
         </Navbar>
     )
 }

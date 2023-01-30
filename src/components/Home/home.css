@@ -14,8 +14,6 @@ div #home {
 }
 
 #home img {
-    width: 330px;
-    height: 440px;
     transform: rotate(20deg);
     margin-right: 0;
 }
@@ -65,6 +63,20 @@ div .htx {
     text-shadow: -3px -1px rgb(250, 88, 182) ;
 }
 
+.readMore{
+    /* padding: 8px; */
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom left, #586eff, #a84cff );
+    color: whitesmoke;
+    margin: 10px 0;
+    transition: .3s;
+}
+
+.readMore:hover{
+    box-shadow: 2px 2px #586eff;
+    transition: .3s;
+}
+
 .web-span {
     background: linear-gradient(to right, #2cff87, #586eff, #a84cff, #2cff87, #586eff );
     background-size: 400% 400%;
@@ -103,6 +115,10 @@ div .htx {
         font-size: 30px;
         font-weight: bold;
     }
+    .readMore{
+        font-size: 16px;
+        padding: 8px;
+    }
 }
 
 /* xxl devices  */
@@ -118,6 +134,10 @@ div .htx {
     .htx h2 {
         font-size: 27px;
         font-weight: bold;
+    }
+    .readMore{
+        font-size: 14px;
+        padding: 7px;
     }
 }
 
@@ -136,6 +156,10 @@ div .htx {
         font-size: 24px;
         font-weight: bold;
     }
+    .readMore{
+        font-size: 13px;
+        padding: 6px;
+    }
 }
 
 /* large devices */
@@ -151,6 +175,10 @@ div .htx {
     .htx h2 {
         font-size: 21px;
         font-weight: bold;
+    }
+    .readMore{
+        font-size: 13px;
+        padding: 6px;
     }
 }
 
@@ -173,6 +201,10 @@ div .htx {
     .htx h2 {
         font-size: 21px;
         font-weight: bold;
+    }
+    .readMore{
+        font-size: 12px;
+        padding: 6px;
     }
 }
 

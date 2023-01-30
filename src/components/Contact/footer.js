@@ -17,16 +17,17 @@ const Footr = () => {
                     <a href="https://github.com/Punzalan123" target="blank"><Git /> </a>
                     <a href="https://www.linkedin.com/in/reinpunzalan" target="blank"><Link /></a>
                     <a href="https://web.facebook.com/punzalanrein/" target="blank"><Face /></a>
-                    <a href="https://mail.google.com/" target="blank"><Gm /></a>
+                    <a href="mailto:punzalanreiniel@gmail.com" target="blank"><Gm /></a>
                     <a href="https://twitter.com/" target="blank"><Twit /></a>
                 </div>
             </div>
-
-            <p>
-                Copyright <Copy /> 2022 Rein Punzalan <br/>
-                <span className="opacity-50">Last Updated December 2022</span>
-            </p>
-            
+            <div className="container">
+                <p className="row mb-0">
+                    <span className="col-12 col-xl-4"></span>
+                    <span className="col-12 col-xl-4 text-center "><Copy /> Rein Punzalan 2022</span>
+                    <span className="col-12 col-xl-4 text-center text-xl-end opacity-50">Last Updated January 2022</span>
+                </p>
+            </div>
         </div>
     )
 }
