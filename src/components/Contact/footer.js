@@ -25,7 +25,7 @@ const Footr = () => {
                 <p className="row mb-0">
                     <span className="col-12 col-xl-4"></span>
                     <span className="col-12 col-xl-4 text-center "><Copy /> Rein Punzalan 2022</span>
-                    <span className="col-12 col-xl-4 text-center text-xl-end opacity-50">Last Updated January 2022</span>
+                    <span className="col-12 col-xl-4 text-center text-xl-end opacity-50">Last Updated January 2023</span>
                 </p>
             </div>
         </div>
