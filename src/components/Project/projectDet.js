@@ -4,6 +4,8 @@ import food from '../../imagess/food_pic.png';
 import rock from '../../imagess/jrock_pic.png';
 import blog from '../../imagess/blog_pic.png';
 import converter from '../../imagess/unitCon_pic.png';
+import quiz from '../../imagess/quiz_pic.png';
+import weather from '../../imagess/weather_pic.png';
 
 
 
@@ -44,7 +46,7 @@ const project = {
         {
             key: 5,
             name: `Rock🗴Paper🗴Scissors`,
-            details: "A simple JavaScript game",
+            details: "A basic JavaScript game",
             image: rock,
             code: "https://github.com/Punzalan123/Rock",
             site: "https://punzalan123.github.io/Rock/",
@@ -56,6 +58,22 @@ const project = {
             image: converter,
             code: "https://github.com/Punzalan123/Converter",
             site: "https://punzalan123.github.io/Converter/",
+        },
+        {
+            key: 7,
+            name: "Quiz Time",
+            details: "A basic React JS game",
+            image: quiz,
+            code: "https://github.com/Punzalan123/quiz-app/tree/master",
+            site: "https://react-quiz-time.vercel.app/",
+        },
+        {
+            key: 8,
+            name: "Weather App",
+            details: "React JS weather app",
+            image: weather,
+            code: "https://github.com/Punzalan123/weather-app/tree/master",
+            site: "https://react-weather-app-git-master-rein03.vercel.app/",
         },
 ]}
 
